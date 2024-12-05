@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Exitoso</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>¡Registro Exitoso!</h1>
+        <p><strong>Nombres:</strong> <span th:text="${registro.nombres}"></span></p>
+        <p><strong>Apellidos:</strong> <span th:text="${registro.apellidos}"></span></p>
+        <p><strong>DNI:</strong> <span th:text="${registro.dni}"></span></p>
+        <p><strong>Residencia:</strong> <span th:text="${registro.residencia}"></span></p>
+        <p><strong>Contacto de Emergencia:</strong> <span th:text="${registro.contactoEmergencia}"></span></p>
+        <p><strong>Teléfono Personal:</strong> <span th:text="${registro.telefonoPersonal}"></span></p>
+        <p><strong>Tipo de Sangre:</strong> <span th:text="${registro.tipoSangre}"></span></p>
+        <p><strong>Alergias:</strong> <span th:text="${registro.alergias}"></span></p>
+        <p><strong>Kilómetros a Correr:</strong> <span th:text="${registro.kilometros}"></span></p>
+    </div>
+</body>
+</html>
